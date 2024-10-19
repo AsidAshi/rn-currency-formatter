@@ -1,6 +1,6 @@
 {
   "name": "rn-currency-formatter",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "React Native library that allows users to convert currency symbols to currency ISO currency codes and vic-versa",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
