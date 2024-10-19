@@ -28,9 +28,9 @@ const codeInfo = await getCodeInfo("USD 14.6");
 // console.log("result : ", symbolInfo or codeInfo)
 // output = {
 //   "symbol": "$",
-//   "iso_code": "USD",
+//   "currency_code": "USD",
 //   "country": "United States Dollar",
-//   "count": 14.6
+//   "amount": 14.6
 // }
 
 

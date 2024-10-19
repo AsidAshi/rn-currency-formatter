@@ -25,9 +25,9 @@ export function getSymbolInfo(input:any) {
   // Return the currency details along with the amount
   return {
     symbol: currency.symbol,
-    iso_code: currency.iso_code,
+    currency_code: currency.iso_code,
     country: currency.country,
-    count: amount
+    amount: amount
   };
 }
 export function getCodeInfo(input:any) {
