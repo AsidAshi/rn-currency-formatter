@@ -26,12 +26,13 @@ const codeInfo = await getCodeInfo("USD 14.6");
 
 
 // console.log("result : ", symbolInfo or codeInfo)
-// output = {
-//   "symbol": "$",
-//   "currency_code": "USD",
-//   "country": "United States Dollar",
-//   "amount": 14.6
-// }
+output = {
+  "symbol": "$",
+  "currency_code": "USD",
+  "country": "United States Dollar",
+  "country_code": "US"
+  "amount": 14.6
+}
 
 
 ```

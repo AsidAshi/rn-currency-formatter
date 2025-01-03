@@ -27,6 +27,7 @@ export function getSymbolInfo(input:any) {
     symbol: currency.symbol,
     currency_code: currency.iso_code,
     country: currency.country,
+    country_code: currency.country_code,
     amount: amount
   };
 }
@@ -56,6 +57,7 @@ export function getCodeInfo(input:any) {
     symbol: currency.symbol,
     iso_code: currency.iso_code,
     country: currency.country,
+    country_code: currency.country_code,
     count: amount
   };
 }
